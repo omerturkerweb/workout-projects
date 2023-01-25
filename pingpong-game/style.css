@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+    user-select: none;
+    cursor:none;
+
+}
+.gametable {
+    position: absolute;
+    left:50%;
+    top:50%;
+    height:500px;
+    width:1000px;
+    border:3px solid white;
+    transform:translate(-50%,-50%);
+    overflow: hidden;
+    filter: blur(2px);
+    opacity:0.8;
+    
+}
+.scoreboard{
+    font-family: 'Press Start 2P', cursive;
+    width:50%;
+    display: flex;
+    justify-content:space-evenly;
+    margin:20px auto;
+    color:white;
+    font-size:3.2em;
+}
+
+.netline{
+    position: absolute;
+    height:120%;
+    width:5px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-left:2px dashed white;
+    border-width:4px;
+}
+.player1,.player2 {
+    width:5px;
+    height:150px;
+    background-color:white;
+    position: absolute;
+}
+.player1 {
+    left:3%;
+    top:30%;
+}
+.player2{
+    right:3%;
+    top:30%;
+}
+
+.ball{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow:0 0 5px white;
+    border:1px solid black;
+    width:20px;
+    height:20px;
+    background-color: white;
+    border-radius:10px;
+}
+.endingpage{
+    font-family: 'Press Start 2P', cursive;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:rgb(235, 224, 224, 0.9);
+    font-size:1.5em;
+    
+}

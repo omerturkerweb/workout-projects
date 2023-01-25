@@ -1,0 +1,72 @@
+[
+    {
+        "id" : 1,
+        "name" : "macbook pro",
+        "price" : 2500,
+        "brand" : "apple",
+        "img": "https://www.freepnglogos.com/uploads/macbook-png/macbook-the-church-apple-your-source-for-apple-news-and-33.png"
+    },
+    {
+        "id" : 2,
+        "name" : "iphone 14 pro",
+        "price" : 1500,
+        "brand" : "apple",
+        "img": "https://pngimg.com/uploads/iphone_14/iphone_14_PNG47.png"
+    },
+    {
+        "id" : 3,
+        "name" : "aspire notebook",
+        "price" : 500,
+        "brand" : "acer",
+        "img": "https://images.acer.com/is/image/acer/Extensa-15-EX215-32-Bk-01a-wallpaper-win11-01?$Line-Overview-XL$"
+    },
+    {
+        "id" : 4,
+        "name" : "nirvana notebook",
+        "price" : 400,
+        "brand" : "casper",
+        "img": "https://www.casper.com.tr/uploads/2020/09/c350.png"
+    },
+    {
+        "id" : 5,
+        "name" : "mechanical keyboard",
+        "price" : 200,
+        "brand" : "aoc",
+        "img": "https://storage.eu.aoc.com/assets/2022/11/asset-yqj2yt-big.png"
+    },
+    {
+        "id" : 6,
+        "name" : "mouse",
+        "price" : 100,
+        "brand" : "rampage",
+        "img": "https://www.rampage.com.tr/rampage/dosyalar/urun/697/3205_k.png?m=1606907552"
+    },
+    {
+        "id" : 7,
+        "name" : "monitor",
+        "price" : 450,
+        "brand" : "rampage",
+        "img": "https://www.rampage.com.tr/rampage/dosyalar/urun/409/1886_k.png?m=1556607399"
+    },
+    {
+        "id" : 8,
+        "name" : "gtx1650 gpu",
+        "price" : 250,
+        "brand" : "nvidia",
+        "img": "https://www.pny.com/productimages/C4743403-7DF5-42E0-BBF6-AC3700E0B768/images/1-PNY-Graphics-Cards-GTX-1650-ra.png"
+    },
+    {
+        "id" : 9,
+        "name" : "rx570 gpu",
+        "price" : 220,
+        "brand" : "amd",
+        "img": "https://www.technopat.net/sosyal/eklenti/asus-png.1373716/"
+    },
+    {
+        "id" : 10,
+        "name" : "rtx3070 gpu",
+        "price" : 650,
+        "brand" : "nvidia",
+        "img": "https://www.pny.com/productimages/4AC2CBA6-935C-4A7A-B26C-AC2B008A4DC3/images/2-PNY-GeForce-RTX-3070-DF-M-ra-no-logo.png"
+    }
+]

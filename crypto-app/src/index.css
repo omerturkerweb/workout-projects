@@ -1,0 +1,134 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --text-color: '#fff';
+    --bg-color-black: '#212121';
+    --bg-color-grey: '#4A4F53';
+    --color-green-back : '#314440';
+    --color-green-front : '#5FBE92';
+    --color-red-back  : '#2F1D20';
+    --color-red-front : '#CD524B';
+    --color-rank : '#7ECFE1'
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+html,body{
+            width:100%;
+            height:100%;
+            background-color:#212121;
+          
+}
+body {
+    overflow-x: hidden;
+}
+
+#laoder {
+   display: none !important;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+
+}
+#container {
+    width:60%;
+    margin:0 auto;
+    
+}
+.Container:hover {
+    cursor:pointer;
+    transition:all .2s;
+    background-color:#292a2c;
+}
+
+@media only screen and (max-width : 768px)  {
+ 
+
+   .bars-mobil {
+    user-select:none;
+    cursor:pointer;
+    opacity:1;
+    visibility: visible;
+   }
+   .menu-item {
+    display:none;
+    visibility:hidden;
+    opacity:0;
+   }
+   .Header {
+   justify-content: space-evenly;
+   }
+
+   .search-input {
+    width:400px;
+    margin-left:10%;
+   
+   }
+   .search-icon {
+    transition: all .2s;
+   margin-right:50px;
+   }
+   .ContainerInfo {
+    justify-content:center;
+   }
+   .info-item {
+    transition: all .3s;
+    visibility: hidden;
+    opacity:0;
+   }
+   .ContainerInfo {
+    height:15px;
+    width:80%;
+    margin: 10px auto;
+   }
+   .Container {
+    width:500px;
+    height:220px;
+    border-radius:30px;
+    display:block;
+   }
+   .coin-image {
+    width:150px;
+    left:15px;
+
+   }
+   .coin-name {
+    position: absolute;
+    top:15px;
+    right:41%;
+   }
+   .lastPrice {
+    position: absolute;
+    top:38%;
+    left:45%;
+   }
+   .volume {
+    position: absolute;
+    left: 43%;
+    bottom:5%;
+   }
+   .rank {
+    position: absolute;
+    top:5%;
+    right:5%;
+   }
+   .change {
+    position: absolute;
+    bottom:25%;
+    right:5%;
+   }
+   .api-key {
+    transition: all .3s;
+    position: absolute;
+    bottom:5%;
+    left:10%;
+   }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(
+          to bottom right,
+          #55efc4 40%,
+          #00cec9
+        );
+      }
+
+      .body {
+        width: 270px;
+        height: 330px;
+        background: black;
+        border-radius: 100%;
+        position: relative;
+      }
+      .eye {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        background: white;
+        position: absolute;
+      }
+      .eye-left {
+        top: 50px;
+        left: 45px;
+      }
+      .eye-right {
+        top: 50px;
+        right: 45px;
+      }
+      .eye-black {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        background: black;
+        margin: 20px auto;
+        position: relative;
+      }
+      .eye-black-white {
+        height: 17px;
+        width: 15px;
+        border-radius: 100%;
+        background: white;
+        position: absolute;
+        right: 7px;
+        bottom: 14px;
+        transform: skew(17deg);
+      }
+      .nose {
+        width: 0px;
+        height: 0px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 30px 30px 30px 30px;
+        border-color: orange transparent transparent orange;
+        position: absolute;
+        bottom: 160px;
+        left: 100px;
+        transform: rotate(225deg);
+        z-index: 1;
+      }
+      .stomach {
+        height: 170px;
+        width: 170px;
+        border-radius: 100%;
+        background: white;
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        z-index: 0;
+      }
+      .wing {
+        height: 220px;
+        width: 60px;
+        background: black;
+        border-radius: 80%;
+      }
+      .wing-left {
+        position: absolute;
+        bottom: 20px;
+        left: -10px;
+      }
+      .wing-right {
+        position: absolute;
+        bottom: 20px;
+        right: -10px;
+      }
+      .foot-left {
+        width: 0;
+        height: 0;
+        border-radius: 100%;
+        border: 60px solid orange;
+        transform: rotate(-45deg);
+        border-color: orange transparent transparent transparent;
+        z-index: -1;
+      }
+      .foot-left {
+        position: absolute;
+        bottom: -90px;
+        left: 50px;
+      }
+      .foot-right {
+        width: 0;
+        height: 0;
+        border-radius: 100%;
+        border: 60px solid orange;
+        transform: rotate(-45deg);
+        border-color: transparent orange transparent transparent;
+        z-index: -1;
+      }
+      .foot-right {
+        position: absolute;
+        bottom: -90px;
+        right: 50px;
+      }
+      .container {
+        z-index: -2;
+        background: white;
+        padding: 60px 60px 80px 60px;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="body">
+        <div class="eye eye-left">
+          <div class="eye-black">
+            <div class="eye-black-white"></div>
+          </div>
+        </div>
+        <div class="eye eye-right">
+          <div class="eye-black">
+            <div class="eye-black-white"></div>
+          </div>
+        </div>
+        <div class="nose"></div>
+        <div class="stomach"></div>
+        <div class="wing wing-left"></div>
+        <div class="wing wing-right"></div>
+
+        <div class="foot foot-left"></div>
+        <div class="foot foot-right"></div>
+      </div>
+    </div>
+  </body>
+</html>
